@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #1d3557
+}
+
+header,
+footer {
+    background-color: var(--primary-color);
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+.heading {
+    color: var(--primary-color);
+}
+
+form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+textarea{
+    resize: none;
+}
